@@ -4,5 +4,6 @@
     ~/.gitconfig: gitconfig
     ~/.vimrc: vimrc
     ~/.zshrc: zshrc
+    ~/.hammerspoon: hammerspoon
 
 
