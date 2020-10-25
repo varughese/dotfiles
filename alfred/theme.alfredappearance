@@ -1,0 +1,61 @@
+{
+  "alfredtheme" : {
+    "result" : {
+      "textSpacing" : 6,
+      "subtext" : {
+        "size" : 12,
+        "colorSelected" : "#FFFFFF4B",
+        "font" : "System",
+        "color" : "#FEFFFE87"
+      },
+      "shortcut" : {
+        "size" : 16,
+        "colorSelected" : "#FFFFFFFF",
+        "font" : "System",
+        "color" : "#FEFFFE31"
+      },
+      "backgroundSelected" : "#0067D7FF",
+      "text" : {
+        "size" : 17,
+        "colorSelected" : "#FFFFFFEB",
+        "font" : "System",
+        "color" : "#FDFCFFFF"
+      },
+      "iconPaddingHorizontal" : 8,
+      "paddingVertical" : 5,
+      "iconSize" : 34
+    },
+    "search" : {
+      "paddingVertical" : 6,
+      "background" : "#00000000",
+      "spacing" : 4,
+      "text" : {
+        "size" : 30,
+        "colorSelected" : "#000000FF",
+        "font" : "System Light",
+        "color" : "#FEFFFEFF"
+      },
+      "backgroundSelected" : "#B2D7FFFF"
+    },
+    "window" : {
+      "color" : "#0000007A",
+      "paddingHorizontal" : 5,
+      "width" : 559,
+      "borderPadding" : 0,
+      "borderColor" : "#0000007F",
+      "blur" : 35,
+      "roundness" : 5,
+      "paddingVertical" : 3
+    },
+    "credit" : "Andrew-David Jahchan",
+    "separator" : {
+      "color" : "#CBCBCBF3",
+      "thickness" : 0
+    },
+    "scrollbar" : {
+      "color" : "#561A72FF",
+      "thickness" : 0
+    },
+    "name" : "macOS Sierra"
+  }
+}
