@@ -18,8 +18,13 @@ config.applications = {
   },
   ['com.googlecode.iterm2'] = {
     bundleID = 'com.googlecode.iterm2',
-    hyper_key='t'
+    hyper_key='t',
   },
+  ['com.google.Chrome.app.dibeblefpdjapcdhajpidiklcdpjpipk'] = {
+    -- Paper
+    bundleID = 'com.google.Chrome.app.dibeblefpdjapcdhajpidiklcdpjpipk',
+    hyper_key='p'
+  }
 }
 
 hyper = require('hyper')
