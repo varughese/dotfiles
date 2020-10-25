@@ -12,12 +12,7 @@
 hs.hotkey.bind({}, 'F19', hyper.pressed, hyper.released)
 
 hyper.launch = function(app)
-  if app.bundleID == 'com.googlecode.iterm2' then
-    -- iTerm uses a hotkey window so just override here to reduce lag 
-    hs.eventtap.keyStroke({"alt"}, "space")
-  else
-    hs.application.launchOrFocusByBundleID(app.bundleID)
-  end
+  hs.application.launchOrFocusByBundleID(app.bundleID)
 end
 
 -- Expects a configuration table with an applications key that has the
