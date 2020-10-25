@@ -15,7 +15,11 @@ config.applications = {
   ['com.tinyspeck.slackmacgap'] = {
     bundleID = 'com.tinyspeck.slackmacgap',
     hyper_key='s'
-  }
+  },
+  ['com.googlecode.iterm2'] = {
+    bundleID = 'com.googlecode.iterm2',
+    hyper_key='t'
+  },
 }
 
 hyper = require('hyper')
