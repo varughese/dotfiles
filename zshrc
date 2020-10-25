@@ -85,6 +85,11 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 DEFAULT_USER=matv
+bindkey "\e\e[D" backward-word
+bindkey "\e\e[C" forward-word
+
+alias vim="nvim"
+alias push="git push origin"
 
 export PATH=:~/Programs/mongo/bin:$PATH
 export PATH=/usr/local/bin:$PATH
@@ -96,11 +101,8 @@ export PATH=/usr/local/Cellar/bison/3.5.3/bin/:$PATH
 export PATH="/Users/matv/Programs/ffmpeg/:$PATH"
 export PATH=/usr/local/go/bin:$PATH
 
-bindkey "\e\e[D" backward-word
-bindkey "\e\e[C" forward-word
 
 alias vimrcedit="vim ~/.config/nvim/init.vim"
-alias vim="nvim"
 alias python='python3'
 alias pip="pip3"=export PATH="/usr/local/opt/ruby/bin:$PATH"
 
