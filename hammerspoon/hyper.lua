@@ -1,11 +1,11 @@
  --- HYPER
  -- https://github.com/evantravers/hammerspoon-config/blob/master/hyper.lua
  --
- 
+
  local hyper = hs.hotkey.modal.new({}, nil)
 
- hyper.pressed = function() hyper:enter() end
- hyper.released = function() hyper:exit() end
+hyper.pressed  = function() hyper:enter() end
+hyper.released = function() hyper:exit() end
 
 -- Set the key you want to be HYPER to F19 in karabiner or keyboard
 -- Bind the Hyper key to the hammerspoon modal
@@ -40,7 +40,7 @@ hyper.start = function(config_table)
       hs.fnutils.map(app.local_bindings, function(key)
         hyper:bind({}, key, nil, function()
           if hs.application.get(app.bundleID) then
-            hs.eventtap.keyStroke({'cmd','alt','shift','ctrl'}, key)
+            hs.eventtap.keyStroke(key)
           else
             hyper.launch(app)
             hs.timer.waitWhile(
@@ -48,7 +48,7 @@ hyper.start = function(config_table)
                 return not hs.application.get(app.bundleID):isFrontmost()
               end,
               function()
-                hs.eventtap.keyStroke({'cmd','alt','shift','ctrl'}, key)
+                hs.eventtap.keyStroke(key)
               end
             )
           end
@@ -59,4 +59,3 @@ hyper.start = function(config_table)
 end
 
 return hyper
-

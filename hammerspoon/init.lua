@@ -8,6 +8,10 @@ config.applications = {
     bundleID = 'com.microsoft.VSCode',
     hyper_key='v'
   },
+  ['us.zoom.xos'] = {
+    bundleID = 'us.zoom.xos',
+    hyper_key='z'
+  },
   ['com.hnc.Discord'] = {
     bundleID = 'com.hnc.Discord',
     hyper_key='d'
