@@ -8,6 +8,10 @@ config.applications = {
     bundleID = 'com.microsoft.VSCode',
     hyper_key='v'
   },
+  ['com.jetbrains.intellij.ce'] = {
+    bundleID = 'com.jetbrains.intellij.ce',
+    hyper_key='3'
+  },
   ['us.zoom.xos'] = {
     bundleID = 'us.zoom.xos',
     hyper_key='z'
