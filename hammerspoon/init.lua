@@ -12,6 +12,10 @@ config.applications = {
     bundleID = 'com.jetbrains.intellij.ce',
     hyper_key='3'
   },
+  ['com.apple.iChat'] = {
+    bundleID = 'com.apple.iChat',
+    hyper_key='m'
+  },
   ['us.zoom.xos'] = {
     bundleID = 'us.zoom.xos',
     hyper_key='z'
