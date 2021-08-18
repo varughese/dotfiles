@@ -21,6 +21,8 @@ This links the `~/.dotfiles/karabiner` folder to the folder `~/.config/karabiner
 - iTerm 2
 - Karabiner Elements
 
+- `brew install fzf` and the options for reverse search
+
 ## Links
 - https://medium.com/ayuth/iterm2-zsh-oh-my-zsh-the-most-power-full-of-terminal-on-macos-bdb2823fb04c
 - http://evantravers.com/articles/2020/06/08/hammerspoon-a-better-better-hyper-key/
