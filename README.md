@@ -22,6 +22,8 @@ This links the `~/.dotfiles/karabiner` folder to the folder `~/.config/karabiner
 - Karabiner Elements
 
 - `brew install fzf` and the options for reverse search
+- `$(brew --prefix)/opt/fzf/install`
+
 
 ## Links
 - https://medium.com/ayuth/iterm2-zsh-oh-my-zsh-the-most-power-full-of-terminal-on-macos-bdb2823fb04c
