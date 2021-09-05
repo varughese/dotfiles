@@ -89,7 +89,7 @@ bindkey "\e\e[D" backward-word
 bindkey "\e\e[C" forward-word
 
 alias vim="nvim"
-alias push="git push origin"
+alias push="git push origin HEAD"
 
 export PATH=:~/Programs/mongo/bin:$PATH
 export PATH=/usr/local/bin:$PATH
@@ -105,8 +105,13 @@ export PATH=/usr/local/go/bin:$PATH
 alias vimrcedit="vim ~/.config/nvim/init.vim"
 alias python='python3'
 alias pip="pip3"=export PATH="/usr/local/opt/ruby/bin:$PATH"
+alias gacp="git add . && git commit -m \"update\" &&  git push"
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
 export PATH="$PATH:$HOME/.cargo/bin"		
+export PATH="$PATH:/usr/local/protobuf/bin"
+export PATH="$PATH:$HOME/go/bin"
 
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

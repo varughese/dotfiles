@@ -12,8 +12,8 @@ config.applications = {
     bundleID = 'com.jetbrains.intellij.ce',
     hyper_key='3'
   },
-  ['com.apple.iChat'] = {
-    bundleID = 'com.apple.iChat',
+  ['com.apple.MobileSMS'] = {
+    bundleID = 'com.apple.MobileSMS',
     hyper_key='m'
   },
   ['us.zoom.xos'] = {
@@ -27,6 +27,10 @@ config.applications = {
   ['com.tinyspeck.slackmacgap'] = {
     bundleID = 'com.tinyspeck.slackmacgap',
     hyper_key='s'
+  },
+  ['notion.id'] = {
+    bundleID = 'notion.id',
+    hyper_key='n'
   },
   ['com.google.Chrome.app.dibeblefpdjapcdhajpidiklcdpjpipk'] = {
     -- Paper

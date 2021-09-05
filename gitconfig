@@ -2,3 +2,5 @@
 	email = mat.varughese3@gmail.com
 	name = varughese
 
+[init]
+	defaultBranch = master

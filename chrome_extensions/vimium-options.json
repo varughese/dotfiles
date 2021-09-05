@@ -1,0 +1,30 @@
+{
+  "settingsVersion": "1.67",
+  "exclusionRules": [
+    {
+      "pattern": "https?://mail.google.com/*",
+      "passKeys": ""
+    },
+    {
+      "pattern": "https?://www.youtube.com/*",
+      "passKeys": "<>"
+    }
+  ],
+  "filterLinkHints": false,
+  "waitForEnterForFilteredHints": true,
+  "hideHud": false,
+  "keyMappings": "# Insert your preferred key mappings here.\nunmap /\nmap <c-]> passNextKey\nmap } scrollFullPageDown\nmap { scrollFullPageUp",
+  "linkHintCharacters": "sadfjklewcmpgh",
+  "linkHintNumbers": "0123456789",
+  "newTabUrl": "about:newtab",
+  "nextPatterns": "next,more,newer,>,›,→,»,≫,>>",
+  "previousPatterns": "prev,previous,back,older,<,‹,←,«,≪,<<",
+  "regexFindMode": false,
+  "ignoreKeyboardLayout": false,
+  "scrollStepSize": 90,
+  "smoothScroll": true,
+  "grabBackFocus": false,
+  "searchEngines": "g: https://www.google.com/search?q=%s Google\n\n# More examples.\n#\n# (Vimium supports search completion Wikipedia, as\n# above, and for these.)\n#\n# l: https://www.google.com/search?q=%s&btnI I'm feeling lucky...\n# y: https://www.youtube.com/results?search_query=%s Youtube\n# gm: https://www.google.com/maps?q=%s Google maps\n# b: https://www.bing.com/search?q=%s Bing\n# d: https://duckduckgo.com/?q=%s DuckDuckGo\n# az: https://www.amazon.com/s/?field-keywords=%s Amazon\n# qw: https://www.qwant.com/?q=%s Qwant",
+  "searchUrl": "https://www.google.com/search?q=",
+  "userDefinedLinkHintCss": "iframe.vimiumHUDFrame {\ndisplay:none;\n}\n\ndiv.vimiumHUD {\ndisplay:none;\n}\n\n\n/* Vomnibar */\n\n#vomnibar {\n    background: #333;\n    border-radius: 0;\n    box-shadow: none;\n}\n\n#vomnibar .vomnibarSearchArea {\n    background-color: #222;\n    border: none;\n    border-color: #fff;\n    border-radius: 0;\n    border-style: solid;\n    border-width: 0 0 0 4px;\n}\n\n#vomnibar .vomnibarSearchArea > input {\n    background-color: #222;\n    border: none;\nbox-shadow: none;\n    color: #fff;\n}\n\n#vomnibar ul {\n    background-color: #333;\n    border-radius: 0;\n margin-top: -10px;\n}\n\n#vomnibar li {\n    background-color: transparent;\n    border-color: #F8F;\n    border-style: solid;\n    border-width: 0;\n    margin-top: 10px;\n    transition: background-color 0.1s ease;\n}\n\n#vomnibar li em,\n#vomnibar li .vomnibarTitle {\n    color: #fff;\n}\n\n#vomnibar li em .vomnibarMatch,\n#vomnibar li .vomnibarTitle .vomnibarMatch,\n#vomnibar li .vomnibarMatch {\n    color: #fff;\n}\n\n#vomnibar li .vomnibarUrl {\n    color: #ccc;\n}\n\n#vomnibar li.vomnibarSelected {\n    background-color: #444;\n}"
+}
