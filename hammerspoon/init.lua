@@ -41,6 +41,10 @@ config.applications = {
     -- This is different than the iTerm hot key
     bundleID = 'com.googlecode.iterm2',
     hyper_key='t',
+  },
+  ['com.culturedcode.ThingsMac'] = {
+    bundleID = 'com.culturedcode.ThingsMac',
+    hyper_key='d',
   }
 }
 
