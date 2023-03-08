@@ -1,1 +1,1 @@
-cp -r ~/.hammerspoon/* .
+cp -R ~/.hammerspoon/ ~/dotfiles/hammerspoon

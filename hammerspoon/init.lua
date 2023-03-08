@@ -54,7 +54,7 @@ config.applications = {
 function switchToAndFromApp(bundleID)
   local focusedWindow = hs.window.focusedWindow()
   p(focusedWindow)
-  if focusedWindow:application():bundleID() == bundleID then
+  if focusedWindow and focusedWindow:application():bundleID() == bundleID then
     -- Not sure how to natively in hammerspoon toggle between
     -- active window.
     hs.eventtap.keyStroke("cmd", "`")
@@ -71,3 +71,5 @@ hs.fnutils.map(config.applications, function(app)
     end)
   end
 end)
+
+require('rich-link-copy')
