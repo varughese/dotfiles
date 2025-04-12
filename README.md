@@ -22,6 +22,15 @@ This links the `~/.dotfiles/karabiner` folder to the folder `~/.config/karabiner
 - Karabiner Elements
 - fzf
 
+### iTerm
+* Load settings from a folder
+* Pick this
+* Open and close
+
+### Key repeat
+* https://mac-key-repeat.zaymon.dev/
+
+
 ### fzf
 - `brew install fzf` and the options for reverse search
 - `$(brew --prefix)/opt/fzf/install`
